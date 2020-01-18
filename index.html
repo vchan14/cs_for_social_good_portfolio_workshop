@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My Resume</title>
+  
+<style>
+
+li {
+  padding: 3px;
+}
+
+body {
+  background-color: rgb(194, 192, 188);
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.video {
+  margin : 30px;
+}
+
+.section {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.main {
+
+  display: flex; 
+  justify-content: space-between;
+  flex-direction: column;
+/*  background-color: black; 
+*/}
+
+.my-info {
+
+  background-color: rgb(212, 212, 212);
+  display: flex;
+
+}
+
+.contact{
+  flex: 1;
+
+}
+
+.education {
+  flex:1;
+ 
+}
+
+.projects {
+
+  background-color: rgb(212, 212, 212);
+}
+
+
+.awards {
+  background-color: rgb(212, 212, 212); 
+}
+
+
+#course-container{
+  display: flex; 
+
+}
+
+.course-column{
+  flex: 1;
+}
+
+.course-column li{
+  padding: 0px;
+  
+}
+</style>
+
+</head>
+<body>
+  <div class="main">
+
+      <center><h2>Ben Dover</h2></center>
+      <div class="my-info section">
+        <div class="contact">
+
+          <B><u>Information</u> </B>
+          <ul>
+            <li><b>Email: </b><span>ben@gmail.com</span></li>
+            <li><b>Address: </b><span>San Luis Obispo CA 90001</span> </li>
+            <li><b>Telephone: </b><span>323-2020201</span></li>
+            <li><b>Linkedin: </b><span><a href="linkedin.com/visalbotr">linkedin.com/visalbotr</a> </span></li>
+            <li><b>Github: </b><span><a href="github.com/vchan14">github.com/vchan14</a> </span></li>
+            <li><b>Resume:</b><a href="visalbotr_chan_resume.pdf">Visalbotr_resume.pdf</a></li>
+          </ul>
+
+
+        </div>
+
+        <div class="education">
+          <B><u>Education</u></B>
+
+          <ul> 
+            <li><b>University:</b> Cal Poly San Luis Obispo</li>
+            <li><b>Degree:</b> B.S in Computer Science</li>
+            <li><b>GPA: </b><span>3.00/4.00</span></li>
+            <li><b>Courses Taken: </b><span></span> </li>
+              <ul id="course-container">
+                <div class="course-column">
+                  <li>CS 101</li>
+                  <li>CS 202</li>
+                  <li>CS 357</li>
+                </div>
+
+                <div class="course-column">
+                  <li>CS 348</li>
+                  <li>CS 464</li>
+                  <li>CS 400</li>
+                </div>
+     
+              </ul>
+          </ul>
+        </div>
+      </div>
+        
+        
+      <div class="projects section">
+
+          <B><u>Projects</u> </B>
+          <ul>
+            <li><b>Online Spice Store</b></li>
+              <ul>
+                  <li>
+                    Built a local online spice shop which used Vue for front-end and Node, Express and MySQL for back-end
+                  </li>
+                  <li>
+                    Customers can place orders, search items by different categories, modify carts, and check the previous orders
+                  </li>
+                  <li>
+                    Equipped with a management system where the owner could view orders and assign them to staffs 
+                  </li>
+
+                  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/uai3hebS2dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+              </ul>
+
+                <li><b>Web and Embedded System Researcher</b></li>
+                <ul>
+                  <li>
+                    Developed a health sensor system that supports multiple swappable sensors and has a dynamic web-app interface
+                    to be used in nursing homes where accessing medical devices are limited and expensive
+                  </li>
+             
+                  <li>
+                    Built from React components, WebUSB API, CSS Flexbox, and Bootstrap 
+                  </li>
+  
+                  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6OUGNgTZATw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </ul>
+            </ul>
+        </div>
+                
+          
+      <div class="awards section">
+        <b><u>Awards and Competitions</u></b>
+        <ul>
+          <li><b> Third Place in SLO Hack</b></li>
+            <ul>
+              <li>
+                Built an emergency help services app with 6 other members on 3 platforms: iOS, Android, and Website to help to
+                rescue people in California during a forest fire
+              </li>
+        
+              <li>
+                Parsed information from a firebase database to Android application and tested the reliability of the 3 apps
+              </li>
+
+            </ul>
+
+            <li><b> Runner-up 2014 Junior Highschool Soccer</b></li>
+            <ul>
+              <li>
+                Competed among 12 different high school teams in the Phnom Penh City
+              </li>
+        
+              <li>
+                Won 10 games drew 1 among 12 games
+              </li>
+
+            </ul>
+
+        </ul>
+
+      
+      </div>
+  
+
+
+  </div>
+  
+</body>
+</html>
